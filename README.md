@@ -40,17 +40,17 @@ The feedback form is vulnerable to an XSS attack that runs when the admin views 
 ## Red
 
 Vulnerability #1: Indirect Object Reference
-<img src="https://i.imgur.com/QEC3JjB.gif" width="500"></img>
+<img src="https://i.imgur.com/QEC3JjB.gif"></img>
 Changing the id parameter in the url to 10 reveals a salesperson's info that should be private or not yet public.
 
 Vulnerability #2: Cross-Site Request Forgery
-<img src="https://i.imgur.com/PsVj0Ih.gif" width="500"></img>
+<img src="https://i.imgur.com/PsVj0Ih.gif"></img>
 Using a malicious link in feedback form, admin is tricked into thinking they are logged
 out of wifi and click Log Back In while unintentionally submitting an update form.
 
 ## Green
 Bonus Vulnerability: Cross Site Scripting Redirect
-<img src="https://i.imgur.com/yrLQmzi.gif" width="500"></img>
+<img src="https://i.imgur.com/yrLQmzi.gif"></img>
 Using a window open script for the XSS I am able to redirect admin to Google.com for example (in same window or new window)
 
 ## Notes
