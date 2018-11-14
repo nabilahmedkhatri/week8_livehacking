@@ -51,7 +51,10 @@ out of wifi and click Log Back In while unintentionally submitting an update for
 ## Green
 Bonus Vulnerability: Cross Site Scripting Redirect
 <img src="https://i.imgur.com/yrLQmzi.gif"></img>
-Using a window open script for the XSS I am able to redirect admin to Google.com for example (in same window or new window)
+<img src="https://i.imgur.com/aKd8sLC.gif"></img>
+a) Using a window open script for the XSS I am able to redirect admin to Google.com for example (in same window or new window)
+
+b) and c) I am able to also read and write cookies.
 
 ## Notes
 
